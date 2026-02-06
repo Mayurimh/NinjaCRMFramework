@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Connect to database!]]>
+    </line>
+    <line>
+      <![CDATA[Precondition!]]>
+    </line>
+    <line>
+      <![CDATA[PostCondition!]]>
+    </line>
+    <line>
+      <![CDATA[Connection closed!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-02-05T23:25:57 IST" name="Surefire suite" finished-at="2026-02-05T23:26:44 IST" duration-ms="46610">
+    <groups>
+      <group name="regression">
+        <method signature="CreateTestForAllTest.CreateCampaignWIthExpDate()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" name="CreateCampaignWIthExpDate" class="com.ninjacrm.compaigntest.CreateTestForAllTest"/>
+        <method signature="CreateTestForAllTest.CreateCampaignWithManadatoryField()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" name="CreateCampaignWithManadatoryField" class="com.ninjacrm.compaigntest.CreateTestForAllTest"/>
+        <method signature="CreateProductAllFieldTest.createProductAllFieldTest()[pri:0, instance:com.ninjacrm.producttest.CreateProductAllFieldTest@5cee5251]" name="createProductAllFieldTest" class="com.ninjacrm.producttest.CreateProductAllFieldTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateTestForAllTest.CreateCampaignWithStatusTest()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" name="CreateCampaignWithStatusTest" class="com.ninjacrm.compaigntest.CreateTestForAllTest"/>
+        <method signature="CreateQuotesForAllFieldsTest.createQuotesForAllFieldsTest()[pri:0, instance:com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest@433d61fb]" name="createQuotesForAllFieldsTest" class="com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-02-05T23:25:57 IST" name="Surefire test" finished-at="2026-02-05T23:26:44 IST" duration-ms="46610">
+      <class name="com.ninjacrm.compaigntest.CreateTestForAllTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:25:57 IST" name="beforeSuite" finished-at="2026-02-05T23:25:57 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connect to database!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:25:57 IST" name="beforeTest" finished-at="2026-02-05T23:25:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Precondition!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:25:57 IST" name="beforeClass" finished-at="2026-02-05T23:26:14 IST" duration-ms="16923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:14 IST" name="beforeMethod" finished-at="2026-02-05T23:26:16 IST" duration-ms="2225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignWIthExpDate()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:16 IST" name="CreateCampaignWIthExpDate" finished-at="2026-02-05T23:26:18 IST" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignWIthExpDate -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:18 IST" name="afterMethod" finished-at="2026-02-05T23:26:20 IST" duration-ms="1970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:20 IST" name="beforeMethod" finished-at="2026-02-05T23:26:22 IST" duration-ms="1411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignWithManadatoryField()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:22 IST" name="CreateCampaignWithManadatoryField" finished-at="2026-02-05T23:26:23 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignWithManadatoryField -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:23 IST" name="afterMethod" finished-at="2026-02-05T23:26:24 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:24 IST" name="beforeMethod" finished-at="2026-02-05T23:26:25 IST" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateCampaignWithStatusTest()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:25 IST" name="CreateCampaignWithStatusTest" finished-at="2026-02-05T23:26:26 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignWithStatusTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:26 IST" name="afterMethod" finished-at="2026-02-05T23:26:28 IST" duration-ms="1871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:28 IST" name="afterClass" finished-at="2026-02-05T23:26:28 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:44 IST" name="afterTest" finished-at="2026-02-05T23:26:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PostCondition!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.ninjacrm.compaigntest.CreateTestForAllTest@20d28811]" started-at="2026-02-05T23:26:44 IST" name="afterSuite" finished-at="2026-02-05T23:26:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connection closed!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.ninjacrm.compaigntest.CreateTestForAllTest -->
+      <class name="com.ninjacrm.producttest.CreateProductAllFieldTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.ninjacrm.producttest.CreateProductAllFieldTest@5cee5251]" started-at="2026-02-05T23:26:28 IST" name="beforeClass" finished-at="2026-02-05T23:26:29 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ninjacrm.producttest.CreateProductAllFieldTest@5cee5251]" started-at="2026-02-05T23:26:29 IST" name="beforeMethod" finished-at="2026-02-05T23:26:31 IST" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createProductAllFieldTest()[pri:0, instance:com.ninjacrm.producttest.CreateProductAllFieldTest@5cee5251]" started-at="2026-02-05T23:26:31 IST" name="createProductAllFieldTest" finished-at="2026-02-05T23:26:33 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductAllFieldTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ninjacrm.producttest.CreateProductAllFieldTest@5cee5251]" started-at="2026-02-05T23:26:33 IST" name="afterMethod" finished-at="2026-02-05T23:26:35 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.ninjacrm.producttest.CreateProductAllFieldTest@5cee5251]" started-at="2026-02-05T23:26:35 IST" name="afterClass" finished-at="2026-02-05T23:26:35 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ninjacrm.producttest.CreateProductAllFieldTest -->
+      <class name="com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest@433d61fb]" started-at="2026-02-05T23:26:35 IST" name="beforeClass" finished-at="2026-02-05T23:26:35 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest@433d61fb]" started-at="2026-02-05T23:26:35 IST" name="beforeMethod" finished-at="2026-02-05T23:26:38 IST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createQuotesForAllFieldsTest()[pri:0, instance:com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest@433d61fb]" started-at="2026-02-05T23:26:38 IST" name="createQuotesForAllFieldsTest" finished-at="2026-02-05T23:26:42 IST" duration-ms="4235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createQuotesForAllFieldsTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest@433d61fb]" started-at="2026-02-05T23:26:42 IST" name="afterMethod" finished-at="2026-02-05T23:26:44 IST" duration-ms="1674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest@433d61fb]" started-at="2026-02-05T23:26:44 IST" name="afterClass" finished-at="2026-02-05T23:26:44 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ninjacrm.quotestest.CreateQuotesForAllFieldsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
